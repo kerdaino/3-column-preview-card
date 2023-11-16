@@ -1,0 +1,105 @@
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+    font-size: 15px;
+    padding: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+img {
+    width: 20%;
+    margin: 10px 0;
+}
+
+.first-layout {
+    background: hsl(31, 77%, 52%);
+    padding: 20px;
+}
+
+.first-layout button {
+    color: hsl(31, 77%, 52%);
+}
+
+.second-layout {
+    background: hsl(184, 100%, 22%);
+    padding: 20px;
+}
+
+.second-layout button {
+    color: hsl(184, 100%, 22%);
+}
+
+.third-layout {
+    background: hsl(179, 100%, 13%);
+    padding: 20px;
+}
+
+.third-layout button {
+    color: hsl(179, 100%, 13%);
+}
+
+h1{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    margin: 15px 0;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    word-spacing: 4px;
+    margin: 10px 0;
+}
+
+button {
+    background: hsl(0, 0%, 95%);
+    padding: 10px;
+    border-radius: 25px;
+    margin: 20px 0;
+    border: none;
+    width: 65%;
+}
+
+button:focus,
+button:hover,
+button:active {
+    background: none;
+    color: hsla(0, 0%, 100%, 0.75);
+    border: solid 2px hsla(0, 0%, 100%, 0.75);
+}
+
+.attribution {
+    font-size: 16px;
+    text-align: center;
+    margin: 15px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 600px) {
+    main {
+        display: flex;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main{
+        width: 55%;
+    }
+}
